@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		182B90C41F204AEB0089016A /* RongPayBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 182B90C21F204AEB0089016A /* RongPayBundle.bundle */; };
+		1830F78B1F21E71E00DDAAF8 /* rongPaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830F78A1F21E71E00DDAAF8 /* rongPaySDK.framework */; };
 		1838047E1F1CC86500F302D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838047D1F1CC86500F302D2 /* main.m */; };
 		183804811F1CC86500F302D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183804801F1CC86500F302D2 /* AppDelegate.m */; };
 		183804841F1CC86500F302D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183804831F1CC86500F302D2 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		1838048C1F1CC86500F302D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1838048A1F1CC86500F302D2 /* LaunchScreen.storyboard */; };
 		183804971F1CC86500F302D2 /* testRongPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183804961F1CC86500F302D2 /* testRongPayTests.m */; };
 		183804A21F1CC86500F302D2 /* testRongPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183804A11F1CC86500F302D2 /* testRongPayUITests.m */; };
-		18DFE4701F209D7A001C6809 /* rongPaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DFE46F1F209D7A001C6809 /* rongPaySDK.framework */; };
 		44961BCE14220032C5A3B9E4 /* libPods-testRongPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347F334C319E26C995A0933D /* libPods-testRongPay.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		182B90C21F204AEB0089016A /* RongPayBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongPayBundle.bundle; sourceTree = "<group>"; };
+		1830F78A1F21E71E00DDAAF8 /* rongPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = rongPaySDK.framework; sourceTree = "<group>"; };
 		183804791F1CC86500F302D2 /* testRongPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRongPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838047D1F1CC86500F302D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1838047F1F1CC86500F302D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		1838049D1F1CC86500F302D2 /* testRongPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRongPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183804A11F1CC86500F302D2 /* testRongPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRongPayUITests.m; sourceTree = "<group>"; };
 		183804A31F1CC86500F302D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18DFE46F1F209D7A001C6809 /* rongPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = rongPaySDK.framework; sourceTree = "<group>"; };
 		347F334C319E26C995A0933D /* libPods-testRongPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testRongPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD08489B4879828598D018C9 /* Pods-testRongPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testRongPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testRongPay/Pods-testRongPay.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CE7D383EAE86DC2AE56651 /* Pods-testRongPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testRongPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-testRongPay/Pods-testRongPay.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DFE4701F209D7A001C6809 /* rongPaySDK.framework in Frameworks */,
+				1830F78B1F21E71E00DDAAF8 /* rongPaySDK.framework in Frameworks */,
 				44961BCE14220032C5A3B9E4 /* libPods-testRongPay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +125,7 @@
 				183804801F1CC86500F302D2 /* AppDelegate.m */,
 				183804821F1CC86500F302D2 /* ViewController.h */,
 				183804831F1CC86500F302D2 /* ViewController.m */,
-				18DFE46F1F209D7A001C6809 /* rongPaySDK.framework */,
+				1830F78A1F21E71E00DDAAF8 /* rongPaySDK.framework */,
 				182B90C21F204AEB0089016A /* RongPayBundle.bundle */,
 				183804851F1CC86500F302D2 /* Main.storyboard */,
 				183804881F1CC86500F302D2 /* Assets.xcassets */,
